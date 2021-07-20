@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic&subset=latin,cyrillic); 
+body {
+    font-family: Roboto;
+    font-style: normal;
+    margin: 0;
+    min-width: 322px;
+
+}
+
+/* МЕНЮ */
+header {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    padding: 0 16px 0 8px;
+}
+.menuHeader {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonAndBasket {
+    align-items: center;
+    padding: 16px 0;
+}
+.buttonAndBasket button {
+    margin-right: 27px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    background: #FFFFFF;
+    font-family: Roboto;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;     
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+/* ПОИСК ПО СТРАНИЦЕ */
+.search {
+    padding: 32px 0;
+}
+.search input {
+    border: none;
+    border-bottom: 1.5px solid #757575;
+    width: 100%;
+    opacity: 0.3;
+}
+
+/* РЕСТОРАНЫ */
+.restaraunts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.restaraunts p {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;    
+}
+.name {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-top: 16px;
+}
+.eat {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    padding: 4px 0;
+}
+.time {
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    padding-bottom: 20px;
+}
+.card img{
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    background: #262626;
+    padding-top: 56px;
+}
+footer hr {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+/* 1ый столбец футера */
+/* ВЫБОР ЯЗЫКА */
+.language {
+    display: flex; 
+    align-items: center;
+    width: 227px;
+    border-radius: 2px;
+    background: #3B3B3B;
+}
+.footerImage {
+    padding: 12px 16px;
+}
+.language select {
+    width: 100%;
+    color: #FFFFFF;
+    background: #3B3B3B;
+    border: none;
+    
+}
+.language option {
+    font-size: 13px;
+    line-height: 15px;
+    height: 40px;
+}
+.language select:active {
+    outline: none;
+}
+/* ХЭШТЕГ */
+.hashtag {
+    color: #FFFFFF;
+    padding-top: 17px;
+}
+.hashtag span {
+    color: #49A144;
+    margin-right: -3px;
+}
+/* СОЦИАЛЬНЫЕ СЕТИ */
+.socialNetworks img{
+    margin-right: 8px;
+} 
+/* 2-ой и 3-ий столбец футера */
+p {
+    color: #FFFFFF;
+}
+.footerText {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 16px 0;
+}
+/* APP STORE & GOOGLE PLAY */
+.download {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 39px;
+}
+/* ПОЛЬЗОВАТЕЛЬСКИЕ ПРАВА */
+.footerTextEnd {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+}
+.footerCard {
+    padding: 29px 0;
+}
